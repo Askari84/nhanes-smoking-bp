@@ -1,1 +1,10 @@
-
+name: nhanes-phase1
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - r-base=4.3
+  - r-haven
+  - r-dplyr
+  - r-survey
+  - r-ggplot2
